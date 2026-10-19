@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "byron": {
+      "type": "http",
+      "url": "https://app.buildyoursales.io/api/mcp"
+    }
+  }
+}

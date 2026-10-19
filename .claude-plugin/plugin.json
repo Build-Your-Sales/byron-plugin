@@ -1,0 +1,12 @@
+{
+  "name": "byron",
+  "version": "0.1.0",
+  "description": "Byron, l'assistant de ciblage B2B de Build Your Sales : recherche d'entreprises et de contacts depuis Claude Code.",
+  "author": {
+    "name": "Build Your Sales",
+    "url": "https://buildyoursales.io"
+  },
+  "homepage": "https://buildyoursales.io",
+  "repository": "https://github.com/Build-Your-Sales/byron-plugin",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "build-your-sales",
+  "description": "Plugins Claude Code de Build Your Sales",
+  "owner": {
+    "name": "Build Your Sales",
+    "url": "https://buildyoursales.io"
+  },
+  "plugins": [
+    {
+      "name": "byron",
+      "source": "./",
+      "description": "Byron, l'assistant de ciblage B2B de Build Your Sales, branché sur Claude Code"
+    }
+  ]
+}
