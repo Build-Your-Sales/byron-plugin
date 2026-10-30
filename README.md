@@ -23,7 +23,7 @@ Puis relancez la session, ou tapez `/reload-plugins`.
 4. Choisissez votre espace Build Your Sales.
 5. Cliquez sur **Autoriser**.
 
-Le serveur est alors connecté. Les méthodes de Byron apparaissent quand vous tapez `/` et cherchez `byron`.
+Le serveur est alors connecté. Claude charge seul la méthode de Byron (outil `load_skill`) dès que vous parlez ciblage : rien à taper.
 
 ## Dépenses
 
