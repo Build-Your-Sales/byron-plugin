@@ -15,9 +15,9 @@ Byron est le serveur MCP `byron` de Build Your Sales. Il trouve des entreprises 
 
 ## Les méthodes sont sur le serveur
 
-Le serveur publie ses méthodes détaillées (parcours, secteurs, personas, filtres...) sous forme de prompts MCP. Tapez `/` et cherchez `byron` pour les lister. Selon l'installation, la commande s'écrit `/mcp__byron__parcours` ou `/mcp__plugin_byron_byron__parcours`.
+Le serveur publie ses méthodes détaillées (journey, industries, personas, filters...) sous forme de prompts MCP. Tapez `/` et cherchez `byron` pour les lister. Selon l'installation, la commande s'écrit `/mcp__byron__journey` ou `/mcp__plugin_byron_byron__journey`.
 
-Avant de bâtir une recherche, chargez le prompt qui correspond (en général `parcours` pour commencer), puis suivez-le. Ne devinez pas une méthode, un secteur ou un filtre : demandez le prompt au serveur.
+Avant de bâtir une recherche, chargez le prompt qui correspond (en général `journey` pour commencer), puis suivez-le. Ne devinez pas une méthode, un secteur ou un filtre : demandez le prompt au serveur.
 
 ## Règles d'argent
 
