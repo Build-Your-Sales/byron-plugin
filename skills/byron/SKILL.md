@@ -23,9 +23,9 @@ Avant de bâtir une recherche, chargez le prompt qui correspond (en général `j
 
 Seuls `launch_search` et `complete_search` dépensent des crédits de l'utilisateur ; `quote_search` et `prepare_complete_search` chiffrent gratuitement (scope `spend` requis) et rendent le jeton de confirmation.
 
-1. Avant `launch_search` ou `complete_search`, annoncez le montant `cost_bytokens` du devis, en clair, et attendez un oui explicite de l'utilisateur. Un silence, un « ok je vois » ou une réponse sur autre chose ne valent pas oui.
-2. Si le serveur répond `QUOTE_CHANGED`, le prix ou le périmètre a bougé. Présentez le nouveau devis et demandez un NOUVEAU oui. L'ancien accord ne couvre plus rien.
-3. Le jeton de confirmation vient du devis. Ne réutilisez jamais le jeton d'un autre devis, ni celui d'une recherche précédente, même identique en apparence.
+1. Avant `launch_search` ou `complete_search`, annoncez le montant `cost_bytokens` de la recherche, en clair, et attendez un oui explicite de l'utilisateur. Un silence, un « ok je vois » ou une réponse sur autre chose ne valent pas oui.
+2. Si le serveur répond `QUOTE_CHANGED`, le prix ou le périmètre a bougé. Présentez le nouveau prix et demandez un NOUVEAU oui. L'ancien accord ne couvre plus rien.
+3. Le jeton de confirmation vient de l'annonce de prix. Ne réutilisez jamais le jeton d'une autre annonce, ni celui d'une recherche précédente, même identique en apparence.
 4. N'appelez jamais `launch_search` ni `complete_search` pour « tester » ou « préparer » sans l'accord de l'utilisateur.
 
 Ces outils demandent aussi la validation de l'utilisateur dans Claude Code : c'est normal, ne cherchez pas à la contourner.

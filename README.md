@@ -27,7 +27,7 @@ Le serveur est alors connecté. Les méthodes de Byron apparaissent quand vous t
 
 ## Dépenses
 
-Les recherches payantes demandent toujours votre accord : Byron annonce le coût du devis, attend votre oui, et Claude Code affiche en plus sa propre demande de validation. Un changement de devis exige un nouvel accord.
+Les recherches payantes demandent toujours votre accord : Byron annonce le coût de la recherche, attend votre oui, et Claude Code affiche en plus sa propre demande de validation. Un changement de prix ou de périmètre exige un nouvel accord.
 
 ## Révocation
 
